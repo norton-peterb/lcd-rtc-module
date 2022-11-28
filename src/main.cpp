@@ -19,6 +19,7 @@ void setup() {
   lcd.clear();
   rtc.begin();
   rtc.set24Hour(true);
+  rtc.writeSQW(SQW_SQUARE_1);
 }
 
 void loop() {
